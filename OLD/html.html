@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIGN-IN</title>
+	<style>
+		.danger-alert{
+			background: pink;
+			border: none;
+			font-size: 1.2em;
+			color: white;
+			border-radius: 1em;
+			box-shadow: 0px 0px 10px  gray;
+		}
+		.success-alert{
+			background: lightgreen;
+			border: none;
+			font-size: 1.2em;
+			color: white;
+			border-radius: 1em;
+			box-shadow: 0px 0px 10px  gray;
+		}
+
+	</style>
+</head>
+<body>
+	<form>
+		<label>Email</label><br>
+		<input type='email' id="email"><br>
+		<label>Password</label><br>
+		<input type="password" id="password"><br><br>
+		<input type="button" id="login" value="Login"><br><br>
+		<div id="msg" class="success-alert" class="danger-alert"></div>
+		
+	</form>
+</body>
+<script src='JavaScript.js'></script>
+</html>

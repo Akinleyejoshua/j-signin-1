@@ -1,0 +1,130 @@
+body{
+    font-family: monospace;
+    background:url(Desert.jpg);
+    background-size: 90em;
+
+}
+
+ul{
+    display: inline-flex;
+    flex-flow: row;
+    background: linear-gradient(rgba(192, 190, 190, 0.5), rgba(230, 229, 229, 0.829));
+    padding: 1em;
+    box-shadow: 0px 0px 10px;
+    border-radius: 0.5em;
+    border:none;
+    padding-left: 33em;
+    padding-right: 33em;
+    position: relative;
+    left: 5em;
+}
+
+li{
+    padding: 1em;
+    list-style: none;
+    transition: 0.5s
+}
+
+li:hover{
+    background: rgba(0, 0, 0, 0.055);
+    box-shadow: 0px 0px 10px black;
+    border-radius: 0.5em;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+
+fieldset{
+    background: rgba(0, 0, 0, 0.521);
+    border: none;
+    box-shadow: 0px 0px 2px;
+    border-radius: 0.8em;
+    padding: 1em;
+    margin: 10em 4em 0em 4em;
+    text-align: center;
+   
+}
+
+
+p{
+    color: white;
+    background: rgba(135, 207, 235, 0.356);
+    padding: 1em;
+    border: none;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 0.5em;
+}
+
+label{
+    color: white;
+}
+
+input{
+    border-style: double;
+    border-top-color: rgba(128, 128, 128, 0);
+    border-left-color: rgba(128, 128, 128, 0);
+    border-right-color: rgba(128, 128, 128, 0);
+    border-bottom-color: skyblue;
+    background: inherit;
+    color: white;
+    transition: 0.5s;
+    font-family: monospace;
+}
+
+input:hover{
+    border-bottom-color: white;
+    
+}
+
+button{
+    border: none;
+    padding: 1em;
+    background: rgba(72, 127, 148, 0.527);
+    color: white;
+    box-shadow: 0px 0px 0.5px black;  
+    border-radius: 0.5em;
+    transition: 1s ;
+
+}
+
+button:hover{
+    box-shadow: 0px 0px 20px black;  
+    background: rgba(0, 162, 255, 0.582);
+    width: 10em;
+}
+
+footer{
+    flex-flow: row;
+    background: linear-gradient(rgba(110, 110, 110, 0.151), rgba(212, 196, 196, 0.349));
+    padding: 1em;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 0.5em;
+    border:none;
+    margin:15em 0em 0em 30em;
+    display: inline-flex;
+    flex-flow: row;
+    color: white;
+}
+
+.error{
+    background: rgba(255, 0, 0, 0.349);
+    color: white;
+    transition: 0.5s;
+    border:none;
+    border-radius: 0.5em;
+}
+
+.success{
+    background: rgba(0, 255, 76, 0.349);
+    color: white;
+    transition: 0.5s;
+    border:none;
+    border-radius: 0.5em;
+}
+
+
+
+
